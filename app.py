@@ -16,7 +16,7 @@ import numpy as np
 # 🚀 Streamlit App Title
 st.title('📈 Stock Price Predictions')
 st.sidebar.info('Welcome to the Stock Price Prediction App!')
-st.sidebar.info("Created by [Vikas Sharma](https://www.linkedin.com/in/vikas-sharma005/)")
+st.sidebar.info("Created by [Utkarsh Sharma](https://www.linkedin.com/in/utkarsh-sharma-143b1720a/)")
 
 # 🚀 Sidebar: Stock Symbol & Date Inputs
 option = st.sidebar.text_input('Enter Stock Symbol', value='SPY').upper()
